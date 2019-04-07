@@ -1,0 +1,20 @@
+@media print{
+		#printButton, #submit, 
+		#teachingAdd1,#teachingAdd2, #teachingAdd3, #teachingAdd4, #teachingAdd5, #teachingAdd6, #teachingAdd7, #teachingAdd8,
+		#scholarlyActivitesA, #scholarlyActivitesB, #scholarlyActivitesC, #scholarlyActivitesD, #scholarlyActivitesE, #scholarlyActivitesF, #scholarlyActivitesG,
+		#scholarlyActivitesH, #scholarlyActivitesI, #scholarlyActivitesJ,
+		#professionalServiceA, #professionalServiceB1, #professionalServiceB2, #professionalServiceB3, #professionalServiceB4,#professionalServiceC,
+		#professionalServiceD, #professionalServiceE, #professionalServiceF, #professionalServiceG, #professionalServiceH,
+		#professionalAdvancementA, #professionalAdvancementB, #professionalAdvancementC, 
+		#teachingR1, #teachingR2, #teachingR3, #teachingR4, #teachingR5, #teachingR6, #teachingR7, #teachingR8,
+		#scholarA, #scholarB, #scholarC, #scholarD, #scholarE, #scholarF, #scholarG, #scholarH, #scholarI, #scholarJ,
+		#psA, #psB1, #psB2, #psB3, #psB4, #psC, #psD, #psE, #psF, #psG, #psH,
+		#advancement1, #advancement2, #advancement3
+		
+		{
+			display:none;
+		}
+		
+	}
+	
+	

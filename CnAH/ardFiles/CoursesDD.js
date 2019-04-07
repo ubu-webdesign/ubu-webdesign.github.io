@@ -1,0 +1,152 @@
+function dynamicdropdown(listindex,rowID) {
+    document.getElementById(rowID).length = 0;
+    switch (listindex) {
+	case "":
+	    document.getElementById(rowID).options[0]=new Option("Select Course","");
+        case "actg" :
+            document.getElementById(rowID).options[0]=new Option("Select Course","");
+            document.getElementById(rowID).options[1]=new Option("201","Financial Accounting");
+            document.getElementById(rowID).options[2]=new Option("202","Managerial Accounting");
+            document.getElementById(rowID).options[3]=new Option("320","Accounting Information Systems");
+            document.getElementById(rowID).options[4]=new Option("323","Financial Reporting I");
+            document.getElementById(rowID).options[5]=new Option("324","Financial Reporting II");
+            document.getElementById(rowID).options[6]=new Option("325","Cost Accounting");
+            document.getElementById(rowID).options[7]=new Option("328","Federal Taxation I");
+            document.getElementById(rowID).options[8]=new Option("421","Concepts of Audting");
+            document.getElementById(rowID).options[9]=new Option("422","Financial Reporting III");
+            document.getElementById(rowID).options[10]=new Option("423","Accounting for Governmental for Not-for-Profit Organizations");
+            document.getElementById(rowID).options[11]=new Option("424","Special Topics in Accounting");
+            document.getElementById(rowID).options[12]=new Option("428","Federal Taxation II");
+            document.getElementById(rowID).options[13]=new Option("429","Tax Research");
+            break;
+        case "bus" :
+	    document.getElementById(rowID).options[0]=new Option("Select Course","");
+            document.getElementById(rowID).options[1]=new Option("150","Fundamentals of Business");
+            document.getElementById(rowID).options[2]=new Option("206","Legal and Social Environment of Business");
+            document.getElementById(rowID).options[3]=new Option("305","Applied Statics for Economics and Business");
+            document.getElementById(rowID).options[4]=new Option("306","Business Law");
+            document.getElementById(rowID).options[5]=new Option("458","Strategic Management");
+            document.getElementById(rowID).options[6]=new Option("475","Internship in Business");
+            document.getElementById(rowID).options[7]=new Option("505","Principles of Financial Management");
+            document.getElementById(rowID).options[8]=new Option("506","Principles of Information Systems");
+            document.getElementById(rowID).options[9]=new Option("509","Principles of Marketing");
+            break;
+	case "econ" :
+            document.getElementById(rowID).options[0]=new Option("Select Course","");
+            document.getElementById(rowID).options[1]=new Option("203","Introduction to Microeconomics");
+            document.getElementById(rowID).options[2]=new Option("204","Introduction to Macroeconomics");
+            document.getElementById(rowID).options[3]=new Option("300","Economic History of the United States");
+            document.getElementById(rowID).options[4]=new Option("310","Intermediate Microeconomic Theory");
+            document.getElementById(rowID).options[5]=new Option("320","Intermediate macroeconomics");
+            document.getElementById(rowID).options[6]=new Option("321","Money and Banking");
+            document.getElementById(rowID).options[7]=new Option("323","Urban and Regional Economics");
+            document.getElementById(rowID).options[8]=new Option("325","Internation Economics");
+            document.getElementById(rowID).options[9]=new Option("340","Environmental and Natural Resources Economics");
+            document.getElementById(rowID).options[10]=new Option("397","Special Topics in Economics");
+            document.getElementById(rowID).options[11]=new Option("400","Public Finance");
+            document.getElementById(rowID).options[12]=new Option("405","Development of Economic Thought");
+            document.getElementById(rowID).options[13]=new Option("410","Labor Economics");
+            document.getElementById(rowID).options[14]=new Option("450","Senior Seminar in Economics");
+            document.getElementById(rowID).options[15]=new Option("497","Special Studies");
+	    break;
+	case "fin" :
+	    document.getElementById(rowID).options[0]=new Option("Select Course","");
+	    document.getElementById(rowID).options[1]=new Option("246","Investiments and Personal Finance");
+	    document.getElementById(rowID).options[2]=new Option("301","Finance Fundamentals");
+	    document.getElementById(rowID).options[3]=new Option("341","Financial Management");
+	    document.getElementById(rowID).options[4]=new Option("344","Intro to Real Estate");
+	    document.getElementById(rowID).options[5]=new Option("347","Investments I");
+	    document.getElementById(rowID).options[6]=new Option("348","Investments II");
+	    document.getElementById(rowID).options[7]=new Option("366","Real Estate");
+	    document.getElementById(rowID).options[8]=new Option("442","Advanced Corporate Finance");
+	    document.getElementById(rowID).options[9]=new Option("443","Financial Markets");
+	    document.getElementById(rowID).options[10]=new Option("450","Cash Management");
+	    document.getElementById(rowID).options[11]=new Option("451","Healthcare Finance");
+	    document.getElementById(rowID).options[12]=new Option("497","Special Studies");
+	    break;
+	case "mgt" :
+	    document.getElementById(rowID).options[0]=new Option("Select Course","");
+	    document.getElementById(rowID).options[1]=new Option("351","Management of Organizations");
+	    document.getElementById(rowID).options[2]=new Option("352","Organizational Behavior");
+	    document.getElementById(rowID).options[3]=new Option("353","Human Resource Management");
+	    document.getElementById(rowID).options[4]=new Option("355","Production and Operations Management");
+	    document.getElementById(rowID).options[5]=new Option("356","Process  Improvement  and  Quality  Control");
+	    document.getElementById(rowID).options[6]=new Option("357","Management of Service Operations");
+	    document.getElementById(rowID).options[7]=new Option("358","The  Nonprofit  Sector:  Structure  and  Dynamics");
+	    document.getElementById(rowID).options[8]=new Option("359","Employment Law and Labor Relations");
+	    document.getElementById(rowID).options[9]=new Option("373","Management Science");
+	    document.getElementById(rowID).options[10]=new Option("452","Advanced Human Resource Management");
+	    document.getElementById(rowID).options[11]=new Option("453","Managing the Nonprofit Organization");
+	    document.getElementById(rowID).options[12]=new Option("454","Entrepreneurship and Small Business Management");
+	    document.getElementById(rowID).options[13]=new Option("455","Current Issues in Management");
+	    document.getElementById(rowID).options[14]=new Option("456","Leadership in the Healthcare Environment");
+	    document.getElementById(rowID).options[15]=new Option("460","International Management");
+	    document.getElementById(rowID).options[16]=new Option("467","Supply Chain Management");
+	    document.getElementById(rowID).options[17]=new Option("468","Production Planning and Control");
+	    document.getElementById(rowID).options[18]=new Option("469","Strategic Human Resource Management");
+	    document.getElementById(rowID).options[19]=new Option("497","Special Studies");
+	    break;
+	case "mis" :
+            document.getElementById(rowID).options[0]=new Option("Select Course","");
+            document.getElementById(rowID).options[1]=new Option("225","Modern Programming");
+            document.getElementById(rowID).options[2]=new Option("327","Information Systems Fundamentals");
+            document.getElementById(rowID).options[3]=new Option("337","Business Systems Analysis and Design");
+            document.getElementById(rowID).options[4]=new Option("347","Business Data Communications");
+            document.getElementById(rowID).options[5]=new Option("373","Management Science");
+            document.getElementById(rowID).options[6]=new Option("378","Business Decision Support Systems");
+            document.getElementById(rowID).options[7]=new Option("447","Data Base Management");
+            document.getElementById(rowID).options[8]=new Option("457","Management Information Systems");
+            document.getElementById(rowID).options[9]=new Option("467","E-Commerce – Data Driven Web Application Design");
+            document.getElementById(rowID).options[10]=new Option("477","Special Topics in Information Systems");
+            document.getElementById(rowID).options[11]=new Option("497","Special Studies");
+	    break;
+	case "mkt" :
+            document.getElementById(rowID).options[0]=new Option("Select Course","");
+            document.getElementById(rowID).options[1]=new Option("331","Principles of Marketing");
+            document.getElementById(rowID).options[2]=new Option("333","Marketing Research");
+            document.getElementById(rowID).options[3]=new Option("334","Consumer Behavior");
+            document.getElementById(rowID).options[4]=new Option("335","International Marketing");
+            document.getElementById(rowID).options[5]=new Option("338","Personal Selling and Sales Management");
+            document.getElementById(rowID).options[6]=new Option("339","Marketing Communications");
+            document.getElementById(rowID).options[7]=new Option("430","Field Experience in Applied Marketing");
+            document.getElementById(rowID).options[8]=new Option("432","Marketing Management");
+            document.getElementById(rowID).options[9]=new Option("440","International Marketing Strategy");
+            document.getElementById(rowID).options[10]=new Option("497","Special Studies");
+	    break;
+	case "npm" :
+            document.getElementById(rowID).options[0]=new Option("Select Course","");
+            document.getElementById(rowID).options[1]=new Option("358","The Nonprofit Sector: Structure and Dynamics");
+            document.getElementById(rowID).options[2]=new Option("453","Managing the Nonprofit Organization");
+	    break;
+	case "cs" :
+            document.getElementById(rowID).options[0]=new Option("Select Course","");
+            document.getElementById(rowID).options[1]=new Option("150","Microcomputers and Software Applications I");
+            document.getElementById(rowID).options[2]=new Option("190","Programming Fundamentals");
+            document.getElementById(rowID).options[3]=new Option("190L","Laboratory for CS 190 Programming Fundamentals");
+            document.getElementById(rowID).options[4]=new Option("212","Introduction to FORTRAN");
+            document.getElementById(rowID).options[5]=new Option("225","Modern Programming");
+            document.getElementById(rowID).options[6]=new Option("226","Programming and Algorithmic Design I");
+            document.getElementById(rowID).options[7]=new Option("227","Programming and Algorithmic Design II");
+            document.getElementById(rowID).options[8]=new Option("280","Digital Systems Design");
+            document.getElementById(rowID).options[9]=new Option("310","Computer Architecture and Organization");
+            document.getElementById(rowID).options[10]=new Option("313","Systems Design and Development");
+            document.getElementById(rowID).options[11]=new Option("318","Data Structures and Algorithm Analysis");
+            document.getElementById(rowID).options[12]=new Option("330","Special Topics in Computer Science");
+            document.getElementById(rowID).options[13]=new Option("340","Software Design and Development");
+            document.getElementById(rowID).options[14]=new Option("350","Theory of Computation");
+            document.getElementById(rowID).options[15]=new Option("360","Introduction to Computer Graphics");
+            document.getElementById(rowID).options[16]=new Option("401","Programming Languages");
+            document.getElementById(rowID).options[17]=new Option("410","Operating Systems");
+            document.getElementById(rowID).options[18]=new Option("420","Compiler Construction");
+            document.getElementById(rowID).options[19]=new Option("425","Numerical Analysis");
+            document.getElementById(rowID).options[20]=new Option("430","Data Base Management Systems Design");
+            document.getElementById(rowID).options[21]=new Option("437","Artificial Intelligence");
+            document.getElementById(rowID).options[22]=new Option("440","Computer Networks");
+            document.getElementById(rowID).options[23]=new Option("475","Internship in Computer Science");
+            document.getElementById(rowID).options[24]=new Option("480","Capstone I");
+            document.getElementById(rowID).options[25]=new Option("482","Capstone II");
+            document.getElementById(rowID).options[26]=new Option("497","Special Studies");
+	    break;
+        }
+        return true;
+    }
